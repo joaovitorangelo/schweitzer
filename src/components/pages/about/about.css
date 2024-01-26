@@ -1,0 +1,58 @@
+.global-cont {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.house-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 7rem;
+}
+
+.commitment-container {
+    display: flex;
+    flex-direction: column;
+    width: 51%;
+    position: relative;
+    left: 30%;
+    background-color: var(--color-body);
+}
+
+.commitment-container h1 {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    font-family: var(--font-roboto);
+    font-weight: 100;
+    font-size: 35px;
+    color: var(--color-white);
+}
+
+.commitment-container p {
+    font-family: var(--font-arial);
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.differences-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    left: 60px;
+}
+
+.differences-container h2 {
+    font-size: 30px;
+    font-weight: 100;
+    color: var( --color-span-2);
+    font-family: var(--font-roboto);
+    margin-top: 2rem;
+}
+
+.differences-container p {
+    width: 160%;
+    color: var(--color-span);
+    font-family: var(--font-arial)
+}

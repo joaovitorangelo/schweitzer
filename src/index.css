@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  position: absolute;
+  background-color: red;
+}
+
+:root {
+  --color-body: rgb(1, 30, 61);
+  --border-color: #cccccca2;
+  --color-discover: rgb(113, 157, 214);
+  --font-arial: Arial, Helvetica, sans-serif;
+  --color-p: #333333c9;
+  --color-span: #777777;
+  --font-roboto: 'Roboto', sans-serif;
+  --color-white: #fff;
+  --color-span-2: #ccc;
+  --meth-color: rgb(56, 89, 133);
+}
+
+

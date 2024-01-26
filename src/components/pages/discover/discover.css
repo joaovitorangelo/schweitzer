@@ -1,0 +1,61 @@
+.global-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10rem;
+    gap: 3rem;
+}
+
+.know-more-container p {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: var(--font-arial);
+    color: var(--color-p);
+    text-align: justify; /* Ou 'left' se preferir alinhar à esquerda */
+    margin-right: 0; /* Remova a margem direita padrão */
+    margin-left: 0;  /* Remova a margem esquerda padrão */
+}
+
+.know-more-container a {
+    margin-top: 1rem;
+    color: var(--color-discover);
+}
+
+.projects-information-container {
+    display: flex;
+    margin-top: 2.9rem;
+    gap: 1rem;
+    font-family: var(--font-roboto);
+    font-style: italic;
+    color: #424242;
+    position: relative; /* Adicione position: relative para que o position: absolute funcione dentro deste contêiner */
+}
+
+.projects-information-container span {
+    border: 2px solid var(--border-color);
+    padding: 1rem;
+}
+
+.projects-information-container .span1::after {
+    content: url('./xx.png');
+    position: absolute;
+    top: -17px;
+    left: 10px; /* Ajuste conforme necessário */
+}
+
+.projects-information-container .span2::after{
+    content: url('./x.png'); /* Conteúdo do pseudo-elemento */
+    position: absolute;
+    top: -17px;
+    left: 169px; /* Ajuste conforme necessário */
+}
+
+.projects-information-container .span3::after {
+    content: url('./x.png'); /* Conteúdo do pseudo-elemento */
+    position: absolute;
+    top: -17px;
+    right: 74px; /* Ajuste conforme necessário */
+
+}

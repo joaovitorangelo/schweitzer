@@ -1,0 +1,7 @@
+.full-height-container {
+  left: 58px;
+  position: absolute;
+  z-index: -999; /* Um valor negativo coloca este elemento abaixo dos outros */
+  /* Outros estilos conforme necessário */
+}
+

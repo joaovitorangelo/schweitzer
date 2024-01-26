@@ -1,0 +1,51 @@
+.bi-caret-down-fill {
+    display: flex;
+    color: rgb(0, 0, 56);
+}
+
+.bi-instagram {
+    color: #333333d2;
+}
+
+.caret {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+}
+
+nav .title {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-span);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+   list-style: none; 
+}
+
+nav ul li a {
+    display: block;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--color-span);
+    font-family: var(--font-roboto);
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    transform: translateX(-6em);
+}
+

@@ -1,0 +1,85 @@
+.dream-container-main {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    margin: auto 80px 100px;
+}
+
+.dream-container h1 {
+    font-family: var(--font-roboto);
+    font-size: 40px;
+    width: 80%;
+    font-weight: 100;
+    color: var(--color-white);
+}
+
+.dream-container::after {
+  content: "";
+  position: absolute;
+  left: 15.1vw;
+  top: 110vw;
+  height: 5px;
+  width: 100%; /* Ajuste o comprimento da border-left conforme necessário */
+  background: linear-gradient(to bottom, var(--color-white) 50%, transparent 50%);
+
+}
+
+.dream-container p {
+    font-family: var(--font-roboto);
+    margin-top: 1.3rem;
+    margin-bottom: 3rem;
+    width: 70%;
+    color: var(--color-white);
+    font-size: 13px;
+    line-height: 19px;
+} 
+
+.dream-container a {
+    text-decoration: none;
+    color: var(--color-discover);
+}
+
+.services {
+    display: grid;
+    grid-template-rows: 60px 60px; /* Duas linhas de altura fixa para os itens acima e dois para os itens abaixo */
+    grid-template-columns: 2fr 2fr; /* Duas colunas, a primeira com 2 partes fracionadas e a segunda com 2 partes fracionadas */
+    gap: 100px 25px; /* Espaço entre as linhas e colunas */
+    position: relative;
+    bottom: 6rem;
+  }
+  
+  .item {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    width: 45vh;
+    height: 19vh;
+    color: var(--color-body);
+    font-family: var(--font-roboto);
+    font-weight: bold;
+  }
+  
+  .item:nth-child(1) {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+  
+  .item:nth-child(2) {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+  
+  .item:nth-child(3) {
+    grid-row: 2 / 3; /* Mude para 2 / 3 para que o item 3 fique na segunda linha */
+    grid-column: 1 / 2;
+  }
+  
+  .item:nth-child(4) {
+    grid-row: 2 / 3; /* Mude para 2 / 3 para que o item 4 fique na segunda linha */
+    grid-column: 2 / 3;
+  }

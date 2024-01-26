@@ -1,0 +1,30 @@
+.partnership-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5rem;
+    margin: auto 50px auto 50px;
+}
+
+
+
+.partnership-paragraph h1 {
+    font-family: var(--font-roboto);
+    font-weight: 100;
+    font-size: 35px;
+    color: var(--color-white);
+}
+
+.partnership-paragraph p {
+    width: 70%;
+    font-family: var(--font-arial);
+    color: var(--color-white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.partnership-paragraph a {
+    color: var(--color-discover);
+    text-decoration: none;
+}

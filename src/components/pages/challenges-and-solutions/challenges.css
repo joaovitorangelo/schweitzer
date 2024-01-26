@@ -1,0 +1,118 @@
+.challenges-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6rem 10rem 5rem 10rem;
+}
+
+.challenges-container section {
+    display: flex;
+    position: relative;
+    left: 5rem;
+    border-top: 3px solid var(--color-discover);
+    border-bottom: 3px solid var(--color-discover);
+}
+
+.challenges-container section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 45%;
+    height: 75.5vw;
+    width: 20px; /* Ajuste o comprimento da border-left conforme necessário */
+    background: linear-gradient(to bottom, var(--color-discover) 50%, transparent 50%);
+  
+  }
+
+.challengesAndSolutions {
+    margin-bottom: 1.5rem;
+}
+
+.challengesAndSolutions h2 {
+    font-weight: 100;
+    color: var(--color-discover);
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-top: 20px;
+}
+
+.challengesAndSolutions p {
+    color: var(--color-discover);
+    font-family: var(--font-arial);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.item-list-ch {
+    list-style: none;
+    position: relative;
+    left: 10px;
+    color: var(--color-p);
+    max-width: 65%;
+    font-family: var(--font-arial);
+    font-size: 14px;
+}
+
+.item-list-ch li {
+    margin-bottom: 1rem;
+}
+
+.item-list-ch li::before {
+    margin-right: 5px;
+    content: "• ";
+    color: var(--color-discover); /* or whatever color you prefer */
+  }
+
+  .who-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+
+.who-container h1::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 33%;
+    height: 4px;
+    width: 25vw; /* Ajuste o comprimento da border-left conforme necessário */
+    background: linear-gradient(to bottom, var(--color-white) 50%, transparent 50%);
+  
+  }
+
+.who-container h1 {
+    font-family: var(--font-roboto);
+   font-weight: 100;
+   font-size: 30px;
+    position: relative;
+    top: 3rem;
+    color: var(--color-white);
+}
+
+.engineers {
+    display: flex;
+    width: 35%;
+    gap: 10rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.engineers h3 {
+    font-size: 15px;
+    font-family: var(--font-roboto);
+    color: var(--color-body);
+}
+
+.engineers p {
+    font-family: var(--font-arial);
+    color: var( --color-span-2);
+}
+
+  .who-container img {
+    border-radius: 100%;
+    width: 90%;
+    height: 70%;
+  }
+
+ 

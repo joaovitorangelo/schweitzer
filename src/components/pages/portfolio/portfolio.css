@@ -1,0 +1,137 @@
+.types-of-work nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.port-list {
+  position: relative;
+  left: 1rem;
+}
+
+.types-of-work h1{
+    font-family: var(--font-roboto);
+    font-weight: 100;
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+.types-of-work p{
+    font-family: var(--font-roboto);
+    font-size: 14px;    
+    color: var(--color-white);
+    margin-top: .5rem;
+}
+
+.types-of-work ul li {
+    display: flex;
+    position: relative;
+    top: 10px;
+    gap: 1rem;
+    font-size: 12px;
+    font-family: var(--font-roboto);
+    color: var(--color-p);
+}
+
+.types-of-work li {
+    padding: .5rem;
+    border-radius: .2rem;
+}
+
+.item-all {
+    background-color: var(--border-color);
+}
+
+.house-container-grid {
+    display: grid;
+    grid-template-rows: repeat(4, 2fr); /* Três linhas fracionadas igualmente */
+    grid-template-columns: .1fr .1fr .1fr .1fr;; /* Quatro colunas fracionadas igualmente */
+    gap: 20px; /* Espaço entre as linhas e colunas */
+    justify-content: center;
+    height: 147vh;
+}
+  
+  .item-house{
+    color: var(--color-body);
+    font-family: var(--font-roboto);
+    font-weight: bold;
+  }
+
+  /* Defina o posicionamento para os 12 itens */
+  .item-house:nth-child(1) {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+  
+  .item-house:nth-child(2) {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+  
+  .item-house:nth-child(3) {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+  }
+  
+  .item-house:nth-child(4) {
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+  }
+  
+  .item-house:nth-child(5) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+  
+  .item-house:nth-child(6) {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+  
+  .item-house:nth-child(7) {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+  }
+  
+  .item-house:nth-child(8) {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+  }
+  
+  .item-house:nth-child(9) {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+  }
+  
+  .item-house:nth-child(10) {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+  }
+  
+  .item-house:nth-child(11) {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+  }
+  
+  .item-house:nth-child(12) {
+    grid-row: 3 / 4;
+    grid-column: 4 / 5;
+  }
+
+  .inpt-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-load {
+    text-align: center;
+    background: transparent;
+    border: 1px solid var(--color-span);
+    width: 17%;
+    height: 40px;
+    color: var(--color-span);
+  
+    cursor: pointer;
+  }
+
